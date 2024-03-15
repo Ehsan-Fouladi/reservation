@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+<html lang="fa" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MediCare</title>
+    <link rel="stylesheet" href="./src/output.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+</head>
+<body>
+    <!-- header -->
+    <header class="w-full lg:max-w-screen-2xl mt-2">
+        <nav class="flex flex-row items-center lg:justify-around justify-between">
+            <div class="mr-3 lg:mr-0">
+                <img class="object-cover object-center" src="./img/logo.png" alt="Logo" draggable="false">
+            </div>
+            <div>
+                <ul class="hidden lg:flex flex-row flex-shrink items-center gap-10 select-none">
+                    <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">خانه</a>
+                    <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">درباره ما</a>
+                    <li class="flex items-center relative group">
+                        <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2">
+                            <a href="#" class="block text-lg font-medium">سرویس ها</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>  
+                        </div>
+                        <div class="hidden flex-col flex-shrink-0 absolute w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">سرویس</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">جزیات سرویس</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">رزرو</a>
+                        </div>                     
+                    </li>
+                    <li class="flex items-center relative group">
+                        <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">پیچ</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                        <div class="hidden flex-col flex-shrink-0 absolute w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog2</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog detail</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">pricing</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Team</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Team Detail</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Contact us</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">coming soon</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">FAQ`s</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">404</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">500</a>
+                        </div>                      
+                    </li>
+                </ul>
+            </div>
+            <div class="hidden lg:flex flex-row gap-3 items-center">
+                <span class="text-indigo-500 text-pretty font-semibold">09123456789 98+ <i class="fa fa-phone"></i></span>
+                <a href="#" class="py-3 px-10 text-center bg-indigo-500 text-white font-semibold text-pretty hover:border-2 hover:border-indigo-500 hover:bg-white hover:text-indigo-500 transition-all duration-500 rounded-xl">رزرو</a>
+            </div>
+            <div class="flex lg:hidden sm:ml-4 lg:ml-0 relative group">
+                <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 ml-2 sm:ml-0">
+                    <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
+                </svg>
+                <div class="absolute flex flex-col flex-shrink-0 p-4 sm:w-52 w-dvw top-10 left-0 rounded-lg space-y-5 shadow-xl">
+                    <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">خانه</a>
+                    <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">درباره ما</a>
+                    <li class="flex flex-col relative group">
+                        <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2">
+                            <a href="#" class="block text-lg font-medium">سرویس ها</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>  
+                        </div>
+                        <div class="hidden flex-col w-52 right-0 p-2 rounded-lg space-y-5 group-hover:flex mt-2">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">سرویس</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">جزیات سرویس</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">رزرو</a>
+                        </div>                     
+                    </li>
+                    <li class="flex flex-col relative group">
+                        <div class="flex items-center hover:text-indigo-500 duration-300 transition-all gap-2">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all ">پیچ</a>
+                            <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-2">
+                                <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
+                            </svg>
+                        </div>
+                        <div class="hidden flex-col w-52 right-0 p-2 rounded-lg space-y-5 group-hover:flex mt-2">
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog2</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog detail</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">pricing</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Team</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Team Detail</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">Contact us</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">coming soon</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">FAQ`s</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">404</a>
+                            <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">500</a>
+                        </div>                      
+                    </li>
+                </div>                 
+            </div>
+        </nav>
+    </header>
+    <!-- end header -->
+
+</body>
+</html>
