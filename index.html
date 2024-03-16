@@ -6,6 +6,7 @@
     <title>MediCare</title>
     <link rel="stylesheet" href="./src/output.css">
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.1.1/css/all.min.css" integrity="sha512-KfkfwYDsLkIlwQp6LFnl8zNdLGxu9YAA1QvwINks4PhcElQSvqcyVLLD9aMhXd13uQjoXtEKNosOWaZqXgel0g==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="./font/IRanSans/css/style.css">
 </head>
 <body>
     <!-- header -->
@@ -20,12 +21,12 @@
                     <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">درباره ما</a>
                     <li class="flex items-center relative group">
                         <div class="hover:text-indigo-500 duration-300 transition-all flex items-center gap-2">
-                            <a href="#" class="block text-lg font-medium">سرویس ها</a>
+                        <a href="#" class="block text-lg font-medium">سرویس ها</a>
                             <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-5 mt-1">
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>  
                         </div>
-                        <div class="hidden flex-col flex-shrink-0 absolute w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
+                        <div class="hidden flex-col z-50 flex-shrink-0 absolute w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">سرویس</a>
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">جزیات سرویس</a>
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">رزرو</a>
@@ -38,7 +39,7 @@
                                 <path stroke-linecap="round" stroke-linejoin="round" d="m19.5 8.25-7.5 7.5-7.5-7.5" />
                             </svg>
                         </div>
-                        <div class="hidden flex-col flex-shrink-0 absolute w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
+                        <div class="hidden flex-col flex-shrink-0 z-50 absolute bg-white w-52 right-0 top-7 shadow shadow-slate-400 p-4 rounded-lg space-y-5 group-hover:flex">
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog</a>
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog2</a>
                             <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">blog detail</a>
@@ -56,13 +57,13 @@
             </div>
             <div class="hidden lg:flex flex-row gap-3 items-center">
                 <span class="text-indigo-500 text-pretty font-semibold">09123456789 98+ <i class="fa fa-phone"></i></span>
-                <a href="#" class="py-3 px-10 text-center bg-indigo-500 text-white font-semibold text-pretty hover:border-2 hover:border-indigo-500 hover:bg-white hover:text-indigo-500 transition-all duration-500 rounded-xl">رزرو</a>
+                <a href="#" class="py-2 px-10 text-center font-semibold text-pretty border-2 hover:border-indigo-500 text-white transition-all duration-500 rounded-xl hover:text-indigo-500 bg-indigo-500 hover:bg-transparent">رزرو</a>
             </div>
-            <div class="flex lg:hidden sm:ml-4 lg:ml-0 relative group">
+            <div class="flex lg:hidden sm:ml-4 lg:ml-0 relative">
                 <svg xmlns="http://www.w3.org/2000/svg" fill="none" viewBox="0 0 24 24" stroke-width="1.5" stroke="currentColor" class="size-7 ml-2 sm:ml-0">
                     <path stroke-linecap="round" stroke-linejoin="round" d="M3.75 6.75h16.5M3.75 12h16.5m-16.5 5.25h16.5" />
                 </svg>
-                <div class="absolute flex flex-col flex-shrink-0 p-4 sm:w-52 w-dvw top-10 left-0 rounded-lg space-y-5 shadow-xl">
+                <div class="absolute flex flex-col flex-shrink-0 p-4 sm:w-52 w-dvw top-10 left-0 rounded-lg space-y-5 shadow-xl bg-white/70 backdrop-blur-sm">
                     <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">خانه</a>
                     <a href="#" class="block text-lg font-medium hover:text-indigo-500 duration-300 transition-all">درباره ما</a>
                     <li class="flex flex-col relative group">
@@ -104,6 +105,36 @@
         </nav>
     </header>
     <!-- end header -->
-
+    <div class="flex items-center lg:mt-4 -z-50">
+        <div class="bg-no-repeat mt-52 lg:mt-0 hidden lg:block">
+            <img class="" src="./img/bg-light-2.png" alt="banner background" draggable="false">
+        </div>
+        <div class="absolute flex flex-col lg:flex-row items-center justify-center top-28 -z-10 lg:z-0">
+            <div class="selection:bg-sky-300 lg:w-1/2 lg:mr-20 mr-5">
+                <h1 class="font-medium text-balance text-3xl md:text-4xl lg:text-5xl leading-7">
+                    ما گوش می دهیم، مراقبت می کنیم، ما شفا می دهیم.
+                </h1>
+                <span class="text-balance font-medium text-gray-500 inline-block mt-6">
+                    Lorem ipsum dolor sit amet consectetur. Massa mauris convallis in eget
+                    volutpat. Vitae nunc varius proin rhoncus cursus et nulla posuere. Eros.
+                </span>
+                <div class="flex flex-row items-center gap-5 mt-10">
+                    <a href="#" class="md:py-4 py-2 px-10 text-center font-semibold text-pretty border-2 hover:border-indigo-500 text-white transition-all duration-500 rounded-xl hover:text-indigo-500 bg-indigo-500 hover:bg-transparent">رزرو</a>
+                    <a href="#" class="md:py-4 py-2 px-10 text-nowrap text-center font-semibold md:text-pretty border-2 border-indigo-500 text-indigo-500 transition-all duration-500 rounded-xl hover:text-white hover:bg-indigo-500">درباره ما</a>
+                </div>
+            </div>
+            <div class="w-96 md:w-1/2 mt-10 lg:mt-3 relative">
+                <img class="object-cover" src="./img/banner-image.png" alt="banner" draggable="false">
+                <div class="bg-white/70 backdrop-blur-lg w-52 px-4 py-5 rounded-lg absolute md:bottom-44 bottom-32 right-0 text-gray-900 flex items-center justify-center gap-2 text-lg font-semibold">
+                    بهترین متخصصان
+                    <span class="text-2xl font-medium text-sky-600">10</span>
+                </div>
+                <div class="bg-white/70 backdrop-blur-lg w-60 px-4 py-5 rounded-lg absolute md:bottom-20 bottom-10 right-0 text-gray-900 flex items-center justify-center gap-2 text-lg font-medium text-nowrap mr-3">
+                    بیماران شفا یافتند
+                    <span class="text-2xl font-medium text-sky-600">250K</span>
+                </div>
+            </div>
+        </div>
+    </div>
 </body>
 </html>
